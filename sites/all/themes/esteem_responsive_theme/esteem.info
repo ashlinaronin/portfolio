@@ -4,6 +4,7 @@ core = 7.x
 engine = phptemplate
 stylesheets[all][] = css/esteem.css
 stylesheets[all][] = css/esteem-media.css
+stylesheets[all][] = css/googlefonts.css
 scripts[] = js/esteem.js
 
 regions[user_menu] = User menu
@@ -49,4 +50,3 @@ version = "7.x-1.0"
 core = "7.x"
 project = "esteem_responsive_theme"
 datestamp = "1424970482"
-

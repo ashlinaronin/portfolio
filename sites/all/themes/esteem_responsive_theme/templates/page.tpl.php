@@ -116,7 +116,7 @@
 <?php if ($is_front): ?>
 
   <div class="slide-show-wrap">
-    <?php print render($page['slideshow']); ?> 
+    <?php print render($page['slideshow']); ?>
     <div class="full-wrap clearfix">
       <?php print render($page['search']) ?>
     </div>
@@ -136,7 +136,7 @@
 
     <!-- Top Four blocks -->
 
-    <?php if ($page['top_first'] || $page['top_second'] || $page['top_third']): ?> 
+    <?php if ($page['top_first'] || $page['top_second'] || $page['top_third']): ?>
       <div id="top-area" class="clearfix">
         <?php if ($page['top_first']): ?>
         <div class="column"><?php print render($page['top_first']); ?></div>
@@ -183,13 +183,13 @@
             <?php print render($page['content']); ?>
           </section>
         </div>
-      
+
         <?php if ($page['sidebar_first']): ?>
           <aside id="sidebar-first" role="complementary">
             <?php print render($page['sidebar_first']); ?>
-          </aside> 
+          </aside>
         <?php endif; ?>
-      
+
         </div>
 
         <?php if ($page['sidebar_second']): ?>
@@ -206,7 +206,7 @@
 
 <div id="footer" class="footer">
   <div id="footer_wrapper">
-    <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_forth']): ?> 
+    <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_forth']): ?>
       <div id="footer-area" class="clearfix">
         <?php if ($page['footer_first']): ?>
         <div class="column"><?php print render($page['footer_first']); ?></div>
@@ -225,12 +225,12 @@
   </div>
 
   <div class="footer_credit">
-      
+
     <div id="copyright">
 
       <p class="copyright">
         <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>
-      </p> 
+      </p>
 
       <!-- Social Links -->
       <?php if (theme_get_setting('social_links', 'esteem')): ?>
@@ -274,7 +274,7 @@
          </ul>
         </span>
       <?php endif; ?>
-      
+
       <div class="clear"></div>
     </div>
   </div>
